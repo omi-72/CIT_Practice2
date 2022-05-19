@@ -25,6 +25,18 @@
        android:layout_width="match_parent"
        android:layout_height="wrap_content">
 
+      <RadioButton
+          android:id="@+id/rd_btn_yes"
+          android:text="Yes"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+
+      <RadioButton
+          android:id="@+id/rd_btn_no"
+          android:text="No"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+
 
    </RadioGroup>
 
