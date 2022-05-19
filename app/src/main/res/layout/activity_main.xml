@@ -18,12 +18,26 @@
        android:layout_width="match_parent"
        android:layout_height="wrap_content"/>
 
+   <TextView
+       android:layout_marginTop="10dp"
+       android:textColor="#0EB68F"
+       android:textStyle="bold"
+       android:includeFontPadding="false"
+       android:textSize="18sp"
+       android:id="@+id/tv_gender"
+       app:layout_constraintEnd_toEndOf="@id/userName"
+       app:layout_constraintStart_toStartOf="@id/userName"
+       app:layout_constraintTop_toBottomOf="@id/userName"
+       android:text="Select Your Gender"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
+
    <RadioGroup
-       android:layout_margin="16dp"
+
        android:gravity="center"
        android:orientation="horizontal"
        app:layout_constraintEnd_toEndOf="parent"
-       app:layout_constraintTop_toBottomOf="@id/userName"
+       app:layout_constraintTop_toBottomOf="@id/tv_gender"
        app:layout_constraintStart_toStartOf="parent"
        android:layout_width="match_parent"
        android:layout_height="wrap_content">
