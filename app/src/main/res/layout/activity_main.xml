@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
    <EditText
+       android:gravity="center"
        android:paddingStart="8dp"
        android:hint="Input Your Name"
        android:id="@+id/userName"
@@ -18,6 +19,8 @@
        android:layout_height="wrap_content"/>
 
    <RadioGroup
+       android:layout_margin="16dp"
+       android:gravity="center"
        android:orientation="horizontal"
        app:layout_constraintEnd_toEndOf="parent"
        app:layout_constraintTop_toBottomOf="@id/userName"
@@ -26,14 +29,14 @@
        android:layout_height="wrap_content">
 
       <RadioButton
-          android:id="@+id/rd_btn_yes"
-          android:text="Yes"
+          android:id="@+id/rd_btn_male"
+          android:text="Male"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"/>
 
       <RadioButton
-          android:id="@+id/rd_btn_no"
-          android:text="No"
+          android:id="@+id/rd_btn_female"
+          android:text="Female"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"/>
 
