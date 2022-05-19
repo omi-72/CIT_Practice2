@@ -22,5 +22,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        userName= findViewById(R.id.userName);
+        rd_group= findViewById(R.id.rd_group);
+        rd_btn_male= findViewById(R.id.rd_btn_male);
+        rd_btn_female= findViewById(R.id.rd_btn_female);
+        chk_terms= findViewById(R.id.chk_terms);
+        btn_submit=findViewById(R.id.btn_submit);
+
     }
 }
