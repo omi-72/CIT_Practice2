@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
    <EditText
+       android:paddingStart="8dp"
        android:hint="Input Your Name"
        android:id="@+id/userName"
        app:layout_constraintEnd_toEndOf="parent"
@@ -15,5 +16,16 @@
        android:layout_margin="8dp"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"/>
+
+   <RadioGroup
+       android:orientation="horizontal"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toBottomOf="@id/userName"
+       app:layout_constraintStart_toStartOf="parent"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+
+   </RadioGroup>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
